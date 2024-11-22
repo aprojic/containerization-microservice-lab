@@ -46,7 +46,7 @@
 ### Demo Application Setup
 
 -   The script prepares a demo application, **PetClinic** ([GitHub Repository](https://github.com/spring-projects/spring-petclinic.git)), written in the Spring Boot framework.
-> As part of the setup, the application is built and a JAR file is generated.
+	> As part of the setup, the application is built and a JAR file is generated.
 
 ### Containerizing the Application
 
