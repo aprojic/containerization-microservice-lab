@@ -1,7 +1,4 @@
 {
-    "name": "lab-development-enviroment",
-    "postCreateCommand": [
-        "chmod +x setup_env.sh",
-        "./setup_env.sh"
-    ]
+    "name": "Lab Development Enviroment",
+    "postCreateCommand": "chmod +x setup_env.sh && ./setup_env.sh"
 }
