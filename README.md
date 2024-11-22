@@ -14,7 +14,7 @@
 3.  Verify Docker Setup 
 	> Once the Codespace is ready, open the terminal and run the following commands to verify that Docker and Docker Compose are available:
 	
- ```
+ 	```
 	foo@bar:~$docker --version
 	foo@bar:~$docker-compose --version
 	foo@bar:~$docker run hello-world
@@ -36,7 +36,8 @@
 ### Installation of Required Prerequisites and Libraries
 
 -   Install necessary tools and libraries
-> An installation script is available in the repository.
+	> An installation script is available in the repository.
+
 	```
 	foo@bar:~$chmod +x ./setup_env.sh
 	chmod +x ./setup_env.sh
