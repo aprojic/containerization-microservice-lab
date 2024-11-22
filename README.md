@@ -31,4 +31,32 @@
 	foo@bar:~$docker stop <container_id>
 	```
 
-To avoid additional costs, remember to stop or delete your Codespace when you’re finished.
+## ### Running and Containerizing a Demo Application
+### Installation of Required Prerequisites and Libraries
+
+-   Install necessary tools and libraries
+> An installation script is available in the repository.
+
+### Demo Application Setup
+
+-   The script prepares a demo application, **PetClinic** ([GitHub Repository](https://github.com/spring-projects/spring-petclinic.git)), written in the Spring Boot framework.
+> As part of the setup, the application is built and a JAR file is generated.
+
+### Containerizing the Application
+
+You need to containerize the application using following method (or find a different one):
+
+1.  **Simple Solution**
+    
+    -   Use the available JAR artifact in the environment to containerize the application.
+
+2.  **Deployment and running the application**
+    
+    -   Run the containerized application and expose it on port 8080.
+
+### Verification
+
+-   Check that the application is accessible in your browser.
+	
+⚠️ **Critical Reminder:** **To avoid unexpected costs, always remember to STOP or DELETE your Codespace when you're done!**  
+Leaving it running can lead to unnecessary charges, so make it a habit to shut down any unused Codespaces.
