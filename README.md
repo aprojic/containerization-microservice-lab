@@ -36,6 +36,10 @@
 
 -   Install necessary tools and libraries
 > An installation script is available in the repository.
+	```
+	foo@bar:~$chmod +x ./setup_env.sh
+	chmod +x ./setup_env.sh
+	```
 
 ### Demo Application Setup
 
