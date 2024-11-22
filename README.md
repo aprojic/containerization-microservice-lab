@@ -13,7 +13,8 @@
     
 3.  Verify Docker Setup 
 	> Once the Codespace is ready, open the terminal and run the following commands to verify that Docker and Docker Compose are available:
-	```
+	
+ ```
 	foo@bar:~$docker --version
 	foo@bar:~$docker-compose --version
 	foo@bar:~$docker run hello-world
